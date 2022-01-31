@@ -11,6 +11,7 @@
 		4789713527A817ED00CF37C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4789713427A817ED00CF37C8 /* ContentView.swift */; };
 		4789713727A817F000CF37C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4789713627A817F000CF37C8 /* Assets.xcassets */; };
 		4789713A27A817F000CF37C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4789713927A817F000CF37C8 /* Preview Assets.xcassets */; };
+		4789714227A8183600CF37C8 /* DeliverySDK in Frameworks */ = {isa = PBXBuildFile; productRef = 4789714127A8183600CF37C8 /* DeliverySDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4789714227A8183600CF37C8 /* DeliverySDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = Loyalty;
+			packageProductDependencies = (
+				4789714127A8183600CF37C8 /* DeliverySDK */,
+			);
 			productName = Loyalty;
 			productReference = 4789712F27A817ED00CF37C8 /* Loyalty.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 4789712627A817ED00CF37C8;
+			packageReferences = (
+				4789714027A8183600CF37C8 /* XCRemoteSwiftPackageReference "DeliverySDK" */,
+			);
 			productRefGroup = 4789713027A817ED00CF37C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -341,6 +349,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4789714027A8183600CF37C8 /* XCRemoteSwiftPackageReference "DeliverySDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ivanpetrov16130/DeliverySDK";
+			requirement = {
+				branch = release/1.0;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4789714127A8183600CF37C8 /* DeliverySDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4789714027A8183600CF37C8 /* XCRemoteSwiftPackageReference "DeliverySDK" */;
+			productName = DeliverySDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4789712727A817ED00CF37C8 /* Project object */;
 }

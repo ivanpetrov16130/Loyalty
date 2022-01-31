@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
+import DeliverySDK
+import DeliveryCore
 
 @main
 struct LoyaltyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VStack {
+                OrdersView()
+                SharedView()
+                Text("Loyalty")
+            }
         }
     }
 }

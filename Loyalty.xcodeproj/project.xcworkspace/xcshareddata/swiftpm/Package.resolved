@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DeliveryCore",
+        "repositoryURL": "https://github.com/ivanpetrov16130/DeliveryCore",
+        "state": {
+          "branch": "release/1.0",
+          "revision": "17f1b72c32072b294ea0bed57767d12974e1a424",
+          "version": null
+        }
+      },
+      {
+        "package": "DeliverySDK",
+        "repositoryURL": "https://github.com/ivanpetrov16130/DeliverySDK",
+        "state": {
+          "branch": "release/1.0",
+          "revision": "879b559ae7fb2495fa4a58a2a9f712261560b900",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
